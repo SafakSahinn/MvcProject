@@ -13,10 +13,10 @@ namespace EntityLayer.Concrete
         public int CategoryId { get; set; }
 
         [StringLength(50)]
-        public int CategoryName { get; set; }
+        public string CategoryName { get; set; }
 
         [StringLength(200)]
-        public int CategoryDescription { get; set; }
+        public string CategoryDescription { get; set; }
 
         public bool Categorystatus { get; set; }
 
