@@ -12,5 +12,7 @@ namespace EntityLayer.Concrete
         public int CategoryName { get; set; }
         public int CategoryDescription { get; set; }
         public bool Categorystatus { get; set; }
+
+        public ICollection<Heading> Headings { get; set; }
     }
 }
