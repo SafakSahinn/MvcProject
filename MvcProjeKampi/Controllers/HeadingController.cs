@@ -63,8 +63,6 @@ namespace MvcProjeKampi.Controllers
 
             var headingValue = hm.GetByID(id);
             return View(headingValue);
-            return View(headingValue);
-            return View(headingValue);
         }
 
     }
